@@ -56,6 +56,14 @@ li a:hover {
     color: #277493;
 }
 
+#video .blue {
+    color: #277493;
+}
+
+#redesign .blue {
+    color: #277493;
+}
+
 
 
 hr {
@@ -158,6 +166,7 @@ img {
     margin-bottom: 0;
 }
 
+/*portfolio-site styles*/
 
 #portfolio img {
     width: 100%;
@@ -192,6 +201,8 @@ img {
     margin: 20px;
 }
 
+/*stilartsite style*/
+
 #stilart .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -202,7 +213,14 @@ img {
 
 #stilart .column {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+#stilart .columnn {
+    flex-grow: 1;
+    flex-basis: 400px;
     position: relative;
     margin: 20px;
 }
@@ -214,11 +232,8 @@ img {
 
 #stilart img {
     width: 100%;
-    height: 30%;
-    /*
-    margin: 20px;
-    padding: 0;
-*/
+    height: 60%;
+    margin-top: 45px;
 }
 
 #stilart .previous round a {
@@ -238,13 +253,10 @@ img {
 }
 
 .round {
-    border-radius: 70%;
+    border-radius: 90%;
 }
 
-
-
-
-
+/*video-site styles*/
 
 #video .sectionwrapper {
     display: flex;
@@ -266,12 +278,6 @@ img {
     padding: 0;
 }
 
-.overskrift h1 {
-    margin-top: 100px;
-    margin-left: 115px;
-    margin-bottom: 0;
-}
-
 #video .previous round a {
     text-decoration: none;
     display: inline-block;
@@ -291,6 +297,8 @@ img {
 .round {
     border-radius: 70%;
 }
+
+/*redesign-site styles*/
 
 #redesign .sectionwrapper {
     display: flex;
@@ -314,16 +322,10 @@ img {
 
 #redesign img {
     width: 100%;
-    height: 50%;
-    margin: 20px;
-    padding: 0;
+    height: 60%;
+    margin-top: 70px;
 }
 
-.overskrift h1 {
-    margin-top: 100px;
-    margin-left: 115px;
-    margin-bottom: 0;
-}
 
 #redesign .previous round a {
     text-decoration: none;
@@ -344,6 +346,8 @@ img {
 .round {
     border-radius: 70%;
 }
+
+/*virksomhed-site styles*/
 
 #virksomhed .sectionwrapper {
     display: flex;
@@ -372,11 +376,6 @@ img {
     padding: 0;
 }
 
-.overskrift h1 {
-    margin-top: 100px;
-    margin-left: 115px;
-    margin-bottom: 0;
-}
 
 #virksomhed .previous round a {
     text-decoration: none;
