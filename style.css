@@ -64,6 +64,9 @@ li a:hover {
     color: #277493;
 }
 
+#virksomhed .blue {
+    color: #277493;
+}
 
 
 hr {
@@ -273,6 +276,13 @@ img {
     margin: 20px;
 }
 
+#video .columnn {
+    flex-grow: 1;
+    flex-basis: 300px;
+    position: relative;
+    margin-top: 70px;
+}
+
 #video h2 {
     margin: 0;
     padding: 0;
@@ -362,6 +372,13 @@ img {
     flex-basis: 300px;
     position: relative;
     margin: 20px;
+}
+
+#virksomhed .columnn {
+    flex-grow: 1;
+    flex-basis: 300px;
+    position: relative;
+    margin-top: 70px;
 }
 
 #virksomhed h2 {
