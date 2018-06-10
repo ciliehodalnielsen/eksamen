@@ -117,6 +117,7 @@ hr {
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .text_port {
@@ -291,8 +292,9 @@ img {
 }
 
 .previous {
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.52);
     color: black;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .round {
@@ -342,14 +344,6 @@ img {
     color: black;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.round {
-    border-radius: 70%;
-}
 
 /*redesign-site styles*/
 
@@ -392,14 +386,7 @@ img {
     color: black;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
 
-.round {
-    border-radius: 70%;
-}
 
 /*virksomhed-site styles*/
 
@@ -450,14 +437,7 @@ img {
     color: black;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
 
-.round {
-    border-radius: 70%;
-}
 
 /*joe-site styles*/
 
@@ -508,15 +488,6 @@ img {
     color: black;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.round {
-    border-radius: 70%;
-}
-
 /*Kea-app styles*/
 
 #kea .sectionwrapper {
@@ -565,15 +536,6 @@ img {
     text-decoration: none;
     background-color: #ddd;
     color: black;
-}
-
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.round {
-    border-radius: 70%;
 }
 
 
