@@ -85,6 +85,10 @@ li a:hover {
     color: #277493;
 }
 
+#kea .blue {
+    color: #277493;
+}
+
 #om .blue {
     color: #277493;
 }
@@ -156,7 +160,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 50px;
     width: 80%;
     height: 50%;
@@ -620,16 +624,17 @@ img {
 
 #cv .column {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 300px;
     position: relative;
     margin: 20px;
 }
 
 #cv .columnn {
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 200px;
     position: relative;
     margin: 30px;
+    margin-top: 50px;
 }
 
 
@@ -649,6 +654,12 @@ img {
     text-decoration: none;
     background-color: #ddd;
     color: black;
+}
+
+#cv img {
+    width: 60%;
+    height: 90%;
+    margin: 20px;
 }
 
 @media screen and (max-width:700px) {
