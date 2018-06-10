@@ -3,7 +3,7 @@ body {
     background-color: white;
     margin: 20px;
 */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -13,9 +13,14 @@ body {
 
 p {
     line-height: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    color: #4e4c4c;
+    background-color: #fff;
 }
 
 b {
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
 }
 
@@ -116,6 +121,12 @@ hr {
 
 .text_port {
     text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
@@ -180,10 +191,14 @@ img {
     height: 100%;
 }
 
+
+
 .overskrift h1 {
     margin-top: 100px;
     margin-left: 120px;
     margin-bottom: 0;
+    font-size: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /*portfolio-site styles*/
@@ -205,11 +220,17 @@ img {
     padding-right: 10px;
 }
 
+.text-block p {
+    background-color: black;
+    color: #e3e2e2;
+}
+
 
 #portfolio .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
+    margin-top: 30px;
 }
 
 #portfolio .container {
@@ -242,12 +263,14 @@ img {
     flex-grow: 1;
     flex-basis: 400px;
     position: relative;
-    margin: 20px;
+    margin-top: 40px;
 }
 
 #stilart h2 {
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 30px;
 }
 
 #stilart img {
@@ -297,18 +320,21 @@ img {
     flex-grow: 1;
     flex-basis: 300px;
     position: relative;
-    margin-top: 70px;
+    margin-top: 88px;
 }
 
 #video h2 {
     margin: 0;
     padding: 0;
+    margin-bottom: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #video .previous round a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #video a:hover {
@@ -345,6 +371,7 @@ img {
 #redesign h2 {
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #redesign img {
@@ -401,6 +428,7 @@ img {
 #virksomhed h2 {
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #virksomhed img {
@@ -458,6 +486,7 @@ img {
 #joe h2 {
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #joe img {
@@ -516,6 +545,7 @@ img {
 #kea h2 {
     margin: 0;
     padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #kea .columnn .column1 {
