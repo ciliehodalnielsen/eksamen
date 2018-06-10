@@ -21,7 +21,7 @@ p {
 
 b {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav {
@@ -81,11 +81,17 @@ li a:hover {
     color: #277493;
 }
 
-#kea .blue {
+#animation .blue {
     color: #277493;
 }
 
+#roskilde .blue {
+    color: #277493;
+}
 
+#om .blue {
+    color: #277493;
+}
 
 hr {
     width: 100%;
@@ -134,49 +140,6 @@ a {
     text-decoration: none;
 }
 
-/*
-body {
-    background-color: #e0dddd;
-    margin: 0;
-}
-
-
-nav {
-    float: right;
-    margin: 0;
-}
-
-nav li a {
-    font-family: 'primetime';
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #e0dddd;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #9b9797;
-}
-*/
 
 .link {
     filter: brightness(70%);
@@ -538,6 +501,134 @@ img {
     color: black;
 }
 
+/*Animation-site styles*/
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#animation .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+#animation .columnn {
+    flex-grow: 1;
+    flex-basis: 400px;
+    position: relative;
+    margin: 30px;
+}
+
+
+#animation h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#animation .previous round a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#aniamtion a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
+
+/*Roskilde-site styles*/
+
+#roskilde .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#roskilde .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+#roskilde .columnn {
+    flex-grow: 1;
+    flex-basis: 400px;
+    position: relative;
+    margin: 30px;
+}
+
+
+#roskilde h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#roskilde .previous round a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#roskilde a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
+
+/*cv-site styles*/
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#cv .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+#cv .columnn {
+    flex-grow: 1;
+    flex-basis: 400px;
+    position: relative;
+    margin: 30px;
+}
+
+
+#cv h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#cv .previous round a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#cv a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
 
 @media screen and (max-width:700px) {
     #portfolio .sectionwrapper {
